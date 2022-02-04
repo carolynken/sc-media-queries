@@ -59,20 +59,26 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  
   header {
     background-color: aqua;
   }
 
   #column-1 {
-    background-color: aqua;
+    background-color: rgb(38, 0, 255);
   }
 
   #column-2 {
-    background-color: blue;
+    background-color: navy;
   }
 
   #column-3 {
     background-color: cornflowerblue;
+    width: 100%;
+  }
+
+  .col-3 {
+    width: 50%;
   }
 
   footer {
@@ -98,6 +104,11 @@ footer {
 
   #column-3 {
     background-color: goldenrod;
+    width: 33.3%
+  }
+
+  .col-3 {
+    width:33.3%;
   }
 
   footer {
